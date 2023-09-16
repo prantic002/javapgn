@@ -100,10 +100,10 @@
 // }
 // console.log(num);
 // Q15
-const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-let num = '';
-for(i = 0; i < 6; i++){
-    const num2 = Math.floor(Math.random() * characters.length);
-    num += characters[num2];
-}
-console.log(num);
+// const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+// let num = '';
+// for(i = 0; i < 6; i++){
+//     const num2 = Math.floor(Math.random() * characters.length);
+//     num += characters[num2];
+// }
+// console.log(num);

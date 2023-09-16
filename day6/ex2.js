@@ -38,28 +38,28 @@
 // }
 // console.log(rgb)
 // Q4, Q5
-const countries = [
-    'Albania',
-    'Bolivia',
-    'Canada',
-    'Denmark',
-    'Ethiopia',
-    'Finland',
-    'Germany',
-    'Hungary',
-    'Ireland',
-    'Japan',
-    'Kenya'
-  ]
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya'
+//   ]
 //   const newarr = [];
 //   for(i = 0; i < countries.length; i++){
 //     newarr.push(countries[i].toUpperCase())
 //   }
 //   console.log(newarr)
-const num = [];
-for(i = 0; i < countries.length; i++){
-    const con = countries[i];
-    const conv = con.length;
-    num.push(conv);
-}
-console.log(num);
+// const num = [];
+// for(i = 0; i < countries.length; i++){
+//     const con = countries[i];
+//     const conv = con.length;
+//     num.push(conv);
+// }
+// console.log(num);
