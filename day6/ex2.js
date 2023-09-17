@@ -63,3 +63,77 @@
 //     num.push(conv);
 // }
 // console.log(num);
+// Q6, Q7, Q8
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya'
+//   ];
+  
+//   const countryArray = [];
+  
+//   for (let i = 0; i < countries.length; i++) {
+//     const countryName = countries[i];
+//     const countryLength = countryName.length;
+//     const countrycode = countryName.slice(0,3).toUpperCase();
+//     countryArray.push([countryName,countrycode, countryLength]);
+//   }
+  
+//   console.log(countryArray);
+// let newland = [];
+// for(i = 0; i < countries.length; i++){
+//     const cn = countries[i];
+//     if(cn.includes('land')){
+//         newland.push(cn);
+//     }
+// }
+// if(newland.length > 0){
+//     console.log(newland)
+// }else{
+//     console.log('All these countries are without land')
+// }
+// let newcode = [];
+// for(i = 0; i < countries.length; i++){
+//     const con = countries[i];
+//     if(con.endsWith('ia')){
+//         newcode.push(con);
+//     }
+// }
+// if(newcode.length > 0){
+//     console.log(newcode);
+// }else{
+//     console.log('These are countries ends without ia')
+// }
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+  ];
+  
+  let longestCountry = [];
+  
+  for (let i = 0; i < countries.length; i++) {
+    const countryName = countries[i];
+    if (countryName.length > longestCountry.length) {
+      longestCountry = countryName;
+    }
+  }
+  
+  console.log(longestCountry);
+  
