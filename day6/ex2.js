@@ -113,19 +113,19 @@
 //     console.log('These are countries ends without ia')
 // }
 // Q9, Q10
-const countries = [
-    'Albania',
-    'Bolivia',
-    'Canada',
-    'Denmark',
-    'Ethiopia',
-    'Finland',
-    'Germany',
-    'Hungary',
-    'Ireland',
-    'Japan',
-    'Kenya'
-  ];
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya'
+//   ];
   
 //   let longestCountry = [];
   
@@ -137,11 +137,69 @@ const countries = [
 //   }
   
 //   console.log(longestCountry);
-let dx = [];
-for(i = 0; i < countries.length; i++){
-    const lm = countries[i];
-    if(lm.length == 5){
-        dx.push(lm);
+// let dx = [];
+// for(i = 0; i < countries.length; i++){
+//     const lm = countries[i];
+//     if(lm.length == 5){
+//         dx.push(lm);
+//     }
+// }
+// console.log(dx);
+// Q11, Q12
+// const webTechs = [
+//     'HTML',
+//     'CSS',
+//     'JavaScript',
+//     'React',
+//     'Redux',
+//     'Node',
+//     'MongoDB'
+//   ]
+//   let lw = [];
+//   for(i = 0; i < webTechs.length; i++){
+//     let mv = webTechs[i];
+//     if(mv.length > lw.length){
+//         lw = mv;
+//     } 
+//   }
+//   console.log(lw);
+// let arr = [];
+// for(i = 0; i < webTechs.length; i++){
+//     let web = webTechs[i];
+//     let mb = web.length;
+//     arr.push([web, mb]);
+// }
+// console.log(arr);
+// Q13
+// const mernStack = ['MongoDB', 'Express', 'React', 'Node'];
+
+// let acronym = '';
+// for (let i = 0; i < mernStack.length; i++) {
+//   const word = mernStack[i];
+//   acronym += word[0];
+// }
+
+// console.log(acronym);
+// Q14
+// const ls = ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"];
+// for(const rv of ls){
+//     console.log(rv);
+// }
+// Q15
+// const fr = ['banana', 'orange', 'mango', 'lemon'];
+// let fd = []
+// for(i = fr.length - 1; i >= 0; i--){
+//     fd.push(fr[i])
+// }
+// console.log(fd)
+// Q16
+const fullStack = [
+    ['HTML', 'CSS', 'JS', 'React'],
+    ['Node', 'Express', 'MongoDB']
+  ]
+  for(i = 0; i < fullStack.length; i++){
+        let cov = fullStack[i];
+        for(j = 0; j < cov.length; j++){
+            console.log(cov[j].toUpperCase())
+        }
     }
-}
-console.log(dx);
