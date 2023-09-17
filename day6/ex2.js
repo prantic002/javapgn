@@ -112,6 +112,7 @@
 // }else{
 //     console.log('These are countries ends without ia')
 // }
+// Q9, Q10
 const countries = [
     'Albania',
     'Bolivia',
@@ -126,14 +127,21 @@ const countries = [
     'Kenya'
   ];
   
-  let longestCountry = [];
+//   let longestCountry = [];
   
-  for (let i = 0; i < countries.length; i++) {
-    const countryName = countries[i];
-    if (countryName.length > longestCountry.length) {
-      longestCountry = countryName;
+//   for (let i = 0; i < countries.length; i++) {
+//     const countryName = countries[i];
+//     if (countryName.length > longestCountry.length) {
+//       longestCountry = countryName;
+//     }
+//   }
+  
+//   console.log(longestCountry);
+let dx = [];
+for(i = 0; i < countries.length; i++){
+    const lm = countries[i];
+    if(lm.length == 5){
+        dx.push(lm);
     }
-  }
-  
-  console.log(longestCountry);
-  
+}
+console.log(dx);
