@@ -193,13 +193,13 @@
 // }
 // console.log(fd)
 // Q16
-const fullStack = [
-    ['HTML', 'CSS', 'JS', 'React'],
-    ['Node', 'Express', 'MongoDB']
-  ]
-  for(i = 0; i < fullStack.length; i++){
-        let cov = fullStack[i];
-        for(j = 0; j < cov.length; j++){
-            console.log(cov[j].toUpperCase())
-        }
-    }
+// const fullStack = [
+//     ['HTML', 'CSS', 'JS', 'React'],
+//     ['Node', 'Express', 'MongoDB']
+//   ]
+//   for(i = 0; i < fullStack.length; i++){
+//         let cov = fullStack[i];
+//         for(j = 0; j < cov.length; j++){
+//             console.log(cov[j].toUpperCase())
+//         }
+//     }
