@@ -8,13 +8,13 @@ let go = 'circle'
 infoDisplay.textContent = "circle goes first";
 
 function createBoard(){
-    startcells.forEach((_cell, index) => {
-        const cellElemet = document.createElement('div');
-        cellElemet.classList.add('square');
-        cellElemet.id = index;
-        cellElemet.addEventListener('click', addGo)
-        gameBoard.append(cellElemet)
-    });
+    startcell.forEach((_cell,index) =>{
+        const cellElement = document.createElement('div')
+        cellElement.classList.add('square')
+        cellElement.id = index
+        cellElement.addEventListener('click', addGo)
+        gameBoard.append(cellElement)
+    })
 }
 createBoard()
 
@@ -44,7 +44,7 @@ function checkscore(){
 
     winningcombo.forEach(array => {
         let crosswins = array.every(cell => allsquares[cell].firstChild?.classList.contains("cross"))
-        if(crossewins){
+        if(crosswins){
          infoDisplay.textContent = "cross wins!"
          allsquares.forEach(square => square.replaceWith(square.cloneNode(true)))
          return
