@@ -136,11 +136,11 @@
 //   console.log(result); // Output: 12
   
 // Q14
-const rv = () =>{
+const rv = (...args) =>{
     let sum = 0;
-    for(i =0; i < arguments.length; i++){
-        sum += arguments[i];
+    for(i =0; i < args.length; i++){
+        sum += args[i];
     }
     return sum;
 }
-console.log(rv([1,2,3]));
+console.log(rv(1,2,3,4));
