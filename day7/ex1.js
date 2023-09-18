@@ -136,11 +136,57 @@
 //   console.log(result); // Output: 12
   
 // Q14
-const rv = (...args) =>{
-    let sum = 0;
-    for(i =0; i < args.length; i++){
-        sum += args[i];
-    }
-    return sum;
-}
-console.log(rv(1,2,3,4));
+// const rv = (...args) =>{
+//     let sum = 0;
+//     for(i =0; i < args.length; i++){
+//         sum += args[i];
+//     }
+//     return sum;
+// }
+// console.log(rv(1,2,3,4));
+// Q15
+// function UserIp() {
+//     const ipParts = [];
+  
+//     for (let i = 0; i < 4; i++) {
+//       const randomPart = Math.floor(Math.random() * 256); // Generate a random number between 0 and 255
+//       ipParts.push(randomPart); // Add the random number to the IP parts array
+//     }
+  
+//     const ipAddress = ipParts.join('.'); // Join the IP parts with periods to form the IP address
+//     return ipAddress;
+//   }
+//   console.log(UserIp())
+// Q16
+// function MacAddress() {
+//     const macParts = [];
+  
+//     for (let i = 0; i < 6; i++) {
+//       const randomPart = Math.floor(Math.random() * 256); // Generate a random number between 0 and 255
+//       const hexPart = randomPart.toString(16).padStart(2, '0'); // Convert to hexadecimal format with leading zeros if necessary
+//       macParts.push(hexPart); // Add the hex part to the MAC address parts array
+//     }
+  
+//     const macAddress = macParts.join(':'); // Join the MAC address parts with colons to form the MAC address
+//     return macAddress;
+//   }
+//   console.log(MacAddress())
+// Q17
+// function randomHexaNumberGenerator() {
+//     const randomHex = Math.floor(Math.random() * 16777215).toString(16); // Generate a random number and convert it to hexadecimal
+//     return randomHex;
+//   }
+//   console.log(randomHexaNumberGenerator())
+// Q18
+// function userIdGenerator() {
+//     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+//     let userId = '';
+  
+//     for (let i = 0; i < 7; i++) {
+//       const randomIndex = Math.floor(Math.random() * characters.length);
+//       userId += characters.charAt(randomIndex);
+//     }
+  
+//     return userId;
+//   }
+// console.log(userIdGenerator())  
