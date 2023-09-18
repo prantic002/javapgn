@@ -10,7 +10,7 @@
 // console.log(words);
 // console.log(words.length);
 // Q6
-const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
-const backEnd = ['Node','Express', 'MongoDB']
-const fullStack = frontEnd.concat(backEnd)
-console.log(fullStack)
+// const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+// const backEnd = ['Node','Express', 'MongoDB']
+// const fullStack = frontEnd.concat(backEnd)
+// console.log(fullStack)

@@ -84,3 +84,63 @@
 //     return arr;
 //   }
 //   console.log(removeItem([ 'banana', 'mango', 'lemon'], 1))
+// Q10
+// function sumOfNumbers(number) {
+//     if (number <= 0) {
+//       return 0; // Return 0 if the input is not a positive number
+//     }
+  
+//     let sum = 0;
+//     for (let i = 1; i <= number; i++) {
+//       sum += i;
+//     }
+//     return sum;
+//   }
+  
+//   // Example usage:
+//   const result = sumOfNumbers(5); // Adds numbers from 1 to 5: 1 + 2 + 3 + 4 + 5 = 15
+//   console.log(result); // Output: 15
+// Q11
+// function sumOfOdds(number) {
+//     if (number <= 0) {
+//       return 0; // Return 0 if the input is not a positive number
+//     }
+  
+//     let sum = 0;
+//     for (let i = 1; i <= number; i++) {
+//       if (i % 2 !== 0) {
+//         sum += i; // Add the odd number to the sum
+//       }
+//     }
+//     return sum;
+//   }
+  
+//   // Example usage:
+//   const result = sumOfOdds(5); // Adds odd numbers from 1 to 5: 1 + 3 + 5 = 9
+//   console.log(result); // Output: 9  
+//   Q12
+// function sumOfEven(number) {
+//     if (number <= 0) {
+//       return 0; // Return 0 if the input is not a positive number
+//     }
+  
+//     let sum = 0;
+//     for (let i = 2; i <= number; i += 2) {
+//       sum += i; // Add the even number to the sum
+//     }
+//     return sum;
+//   }
+  
+//   // Example usage:
+//   const result = sumOfEven(6); // Adds even numbers from 2 to 6: 2 + 4 + 6 = 12
+//   console.log(result); // Output: 12
+  
+// Q14
+const rv = () =>{
+    let sum = 0;
+    for(i =0; i < arguments.length; i++){
+        sum += arguments[i];
+    }
+    return sum;
+}
+console.log(rv([1,2,3]));
